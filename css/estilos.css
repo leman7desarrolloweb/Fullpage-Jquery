@@ -1,0 +1,135 @@
+@font-face {
+    src: url(../font/Poppins-Bold_1.woff);
+    font-family: 'Poppins-Bold';
+}
+@font-face {
+    src: url(../font/Poppins-Thin_1.woff);
+    font-family: 'Poppins-Thin';
+}
+#section0 {
+    background-color: #000000;
+}
+#section1 {
+    background-color: #e20f0f;
+}
+#section2 {
+    background-color: #00a9ec;
+}
+#section3 {
+    background-color: #1800f5;
+}
+#section4 {
+    background-color: #ffa600;
+}
+#section0 h1 {
+    color: #FFF;
+    font-size: 7vw;
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#section0 p {
+    width: 60%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Poppins-Thin';
+    text-align: center;
+    display: table;
+    margin: auto;
+    margin-top: -50px;
+}
+#section1 h1 {
+    color: #FFF;
+    font-size: 7vw;
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#section1 p {
+    width: 60%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Poppins-Thin';
+    text-align: center;
+    display: table;
+    margin: auto;
+    margin-top: -50px;
+}
+#section2 h1 {
+    color: #FFF;
+    font-size: 7vw;
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#section2 p {
+    width: 60%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Poppins-Thin';
+    text-align: center;
+    display: table;
+    margin: auto;
+    margin-top: -50px;
+}
+#section3 h1 {
+    color: #FFF;
+    font-size: 7vw;
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#section3 p {
+    width: 60%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Poppins-Thin';
+    text-align: center;
+    display: table;
+    margin: auto;
+    margin-top: -50px;
+}
+#section4 h1 {
+    color: #FFF;
+    font-size: 7vw;
+    font-family: 'Poppins-Bold';
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#section4 p {
+    width: 60%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Poppins-Thin';
+    text-align: center;
+    display: table;
+    margin: auto;
+    margin-top: -50px;
+}
+@media screen and (max-width: 800px) {
+    #section0 p {
+        width: 80%;
+        margin-top: 0px;
+    }
+    #section1 p {
+        width: 80%;
+        margin-top: 0px;
+    }
+    #section2 p {
+        width: 80%;
+        margin-top: 0px;
+    }
+    #section3 p {
+        width: 80%;
+        margin-top: 0px;
+    }
+    #section4 p {
+        width: 80%;
+        margin-top: 0px;
+    }
+}

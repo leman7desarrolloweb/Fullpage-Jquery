@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leman 7 - Fullpage Jquery</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section" id="section0">
+            <h1>Inicio</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur esse error voluptas, dolorum dolores cum mollitia ad impedit necessitatibus facere aspernatur! Placeat eaque quod vel ipsa ut voluptatibus expedita maiores.</p>
+        </div>
+        <div class="section" id="section1">
+            <h1>Nosotros</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsum natus eos magni! Libero enim excepturi, consectetur, sed ipsa quidem, minus iusto vitae asperiores harum quas velit laboriosam neque necessitatibus?</p>
+        </div>
+        <div class="section" id="section2">
+            <h1>Servicios</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione iure ad porro numquam facilis itaque minus quas molestiae eos omnis, veniam mollitia? Quibusdam possimus enim numquam assumenda earum repellat nemo?</p>
+        </div>
+        <div class="section" id="section3">
+            <h1>Portafolio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sit libero. Iusto sapiente aliquid, laborum ratione commodi alias corrupti porro eaque nisi autem nesciunt, soluta aperiam eos accusantium voluptatum natus!</p>
+        </div>
+        <div class="section" id="section4">
+            <h1>Contacto</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nam dicta suscipit totam, magnam explicabo voluptatibus nihil neque asperiores, labore earum minus, at tenetur nobis enim voluptates? Eveniet, harum molestiae.</p>
+        </div>
+    </div>
+    <script src="js/fullpage.js"></script>    
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['', '', '', '', '', ''],
+            anchors: ['primero', 'segundo', 'tercero', 'cuarto', 'quinto'],
+            navigation:true,
+            navigationTooltips: ['Inicio', 'Nosotros', 'Servicios', 'Portafolio', 'Contacto'],
+            showActiveTooltip: true,
+            menu: '#menu'
+        });
+    </script>
+</body>
+</html>
